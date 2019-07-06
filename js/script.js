@@ -17,3 +17,5 @@ function getJoke() {
   
   request.send();
 }
+
+window.onload = getJoke();
